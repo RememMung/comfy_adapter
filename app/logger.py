@@ -17,3 +17,6 @@ def configure_logger(app):
     handler.setFormatter(formatter)
     app.logger.addHandler(handler)
     app.logger.setLevel(getattr(logging, log_level))
+    
+def get_logger():
+    return logging.getLogger('flask.app')
