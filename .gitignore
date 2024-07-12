@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Test folder
+test/
+
+# Config file
+*.ini
+
 # C extensions
 *.so
 
